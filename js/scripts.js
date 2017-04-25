@@ -1,6 +1,6 @@
 // plik scripts.js
 
-var x = 1,
+var x = 'r',
 	x1 = 2;  
 var value = (x * x) + (2 * x * x1) - (x1 * x1);
 console.log('wynik działania: ' + value);
@@ -13,4 +13,8 @@ else if (value < 0) {
 } 
 else {
     console.log('Wynik równy 0');
+}
+
+if (isNaN(value)) {
+	alert('Uwaga to nie jest liczba ' + value);
 }
