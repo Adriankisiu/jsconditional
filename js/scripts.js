@@ -7,11 +7,9 @@ console.log('wynik działania: ' + value);
 
 if (value > 0) {
     console.log('wynik dodatni');
-} 
-else if (value < 0) {
+} else if (value < 0) {
     console.log('wynik ujemny');
-} 
-else {
+} else {
     console.log('Wynik równy 0');
 }
 
